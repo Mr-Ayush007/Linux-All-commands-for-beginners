@@ -1,0 +1,15 @@
+============================================================
+1. BASIC NAVIGATION & SYSTEM INFO COMMANDS
+============================================================
+These are the fundamental commands you will use every day to move around the file system and check basic system status.
+
+Command | Description | Example
+--------------------------------------------------------------------------------
+pwd     | Print Working Directory (shows your current absolute path). | pwd
+ls      | List directory contents (files and folders). | ls -la (shows hidden files and details)
+cd      | Change directory. | cd /var/log or cd ~ (goes home)
+mkdir   | Make a new directory. | mkdir my_project
+touch   | Create an empty file or update file timestamps. | touch index.html
+cat     | Concatenate and display file content on the terminal. | cat config.txt
+less/more | View large files page by page. | less large_log.log
+echo    | Print text to the terminal or write to a file. | echo "Hello World" > output.txt

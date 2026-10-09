@@ -1,0 +1,14 @@
+============================================================
+2. FILE & DIRECTORY MANAGEMENT COMMANDS
+============================================================
+Commands for copying, moving, deleting, searching, and compressing files.
+
+Command | Description | Example
+--------------------------------------------------------------------------------
+cp      | Copy files or directories. | cp -r folder1/ folder2/ (-r for recursive)
+mv      | Move or rename files and directories. | mv old_name.txt new_name.txt
+rm      | Remove (delete) files or directories. | rm -rf unwanted_folder/ (-rf force recursive)
+find    | Search for files and directories based on various criteria. | find / -name "*.log"
+grep    | Search for a specific pattern or text inside files. | grep "error" app.log
+tar     | Archive files (tape archive), often paired with gzip compression. | tar -czvf archive.tar.gz folder/
+unzip   | Extract zipped archive files. | unzip archive.zip

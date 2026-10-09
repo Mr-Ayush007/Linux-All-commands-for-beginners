@@ -1,0 +1,17 @@
+============================================================
+3. FILE PERMISSIONS & OWNERSHIP COMMANDS
+============================================================
+Linux is a multi-user OS where security is managed via permissions and ownership.
+
+Command | Description | Example
+--------------------------------------------------------------------------------
+chmod   | Change file or directory access permissions. | chmod 755 script.sh or chmod +x script.sh
+chown   | Change the owner and group of a file or directory. | chown user:group filename.txt
+chgrp   | Change the group ownership of a file or directory. | chgrp developers project/
+umask   | View or set default file permission masks. | umask 022
+
+QUICK PERMISSION REFERENCE:
+* 4 = Read (r)
+* 2 = Write (w)
+* 1 = Execute (x)
+* Sum them up (e.g., 7 = Read + Write + Execute). Positions represent User, Group, and Others.

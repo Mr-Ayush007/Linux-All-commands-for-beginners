@@ -1,0 +1,16 @@
+============================================================
+6. ADVANCED NETWORKING & REMOTE CONNECTION COMMANDS
+============================================================
+Essential commands for troubleshooting network interfaces, diagnosing connectivity issues, transferring files securely, and managing remote servers.
+
+Command | Description | Example
+--------------------------------------------------------------------------------
+ip      | Show/manipulate routing, network devices, and interfaces (replaces older ifconfig). | ip a or ip route
+ping    | Send ICMP ECHO_REQUEST to network hosts to test connectivity. | ping -c 4 google.com
+curl / wget | Transfer data from or to a server using various protocols (HTTP, FTP, etc.). | curl -O https://example.com/file.zip
+ss / netstat | Investigate sockets, showing active network connections and listening ports. | ss -tulpn
+ssh     | OpenSSH SSH client (remote login program for secure connection to remote servers). | ssh user@remote_host -p 22
+scp     | Secure copy (remote file copy program over SSH). | scp local_file.txt user@remote_host:/path/to/dest/
+rsync   | Fast, versatile, remote (and local) file-copying tool (ideal for backups). | rsync -avz /local/dir/ user@remote_host:/remote/dir/
+dig / nslookup | DNS lookup utility to query DNS name servers. | dig example.com
+traceroute | Print the route packets take to network host. | traceroute github.com

@@ -1,0 +1,14 @@
+============================================================
+4. USER & GROUP MANAGEMENT COMMANDS
+============================================================
+Essential tools for managing system users, passwords, and groups (usually require sudo privileges).
+
+Command | Description | Example
+--------------------------------------------------------------------------------
+useradd / adduser | Create a new user account. | sudo useradd -m -s /bin/bash john
+passwd  | Change a user's password. | sudo passwd john
+usermod | Modify an existing user account (e.g., add to groups). | sudo usermod -aG sudo john
+userdel | Delete a user account. | sudo userdel -r john (-r removes home directory)
+groupadd | Create a new user group. | sudo groupadd developers
+su      | Switch user or run commands with substitute user ID. | su - john
+sudo    | Execute a command with administrative (root) privileges. | sudo apt update

@@ -1,0 +1,15 @@
+============================================================
+5. ESSENTIAL SYSTEM MONITORING & PROCESS COMMANDS
+============================================================
+Commands to keep an eye on CPU, memory, disk usage, and running services.
+
+Command | Description | Example
+--------------------------------------------------------------------------------
+top / htop | Display dynamic real-time view of running system processes. | htop
+ps      | Report a snapshot of current processes. | ps aux
+kill    | Terminate a process by its Process ID (PID). | kill -9 1234
+df      | Report file system disk space usage. | df -h (human-readable format)
+du      | Estimate file and folder space usage. | du -sh /var/log/
+free    | Display amount of free and used memory in the system. | free -m
+systemctl | Control the systemd system and service manager. | sudo systemctl status nginx
+journalctl | Query and display logs from journald. | journalctl -u nginx.service
