@@ -15,3 +15,5 @@ QUICK PERMISSION REFERENCE:
 * 2 = Write (w)
 * 1 = Execute (x)
 * Sum them up (e.g., 7 = Read + Write + Execute). Positions represent User, Group, and Others.
+
+We are checking pull command.
