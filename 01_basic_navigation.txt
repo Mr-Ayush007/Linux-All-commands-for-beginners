@@ -13,3 +13,5 @@ touch   | Create an empty file or update file timestamps. | touch index.html
 cat     | Concatenate and display file content on the terminal. | cat config.txt
 less/more | View large files page by page. | less large_log.log
 echo    | Print text to the terminal or write to a file. | echo "Hello World" > output.txt
+
+Hello Everyone this is for pr.
